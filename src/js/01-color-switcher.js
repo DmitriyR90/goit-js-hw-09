@@ -20,6 +20,7 @@ function onStartChangeColor() {
   }, 1000);
 
   refs.stopBtn.removeAttribute('disabled');
+  return intervalId;
 }
 
 function onStopChangeColor() {
