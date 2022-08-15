@@ -88,7 +88,7 @@ function changeVisualStyle() {
   refs.timer.style.padding = '8px';
   refs.timer.style.fontWeight = 'bold';
   refs.timer.style.textTransform = 'uppercase';
-  for (item of refs.field) {
+  for (let item of refs.field) {
     item.style.display = 'flex';
     item.style.flexDirection = 'column';
     item.style.alignItems = 'center';
